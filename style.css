@@ -15,3 +15,19 @@ li:hover{
 ul:nth-child(even){
     color: blueviolet;
 }
+.schedule-body > tr:hover:nth-child(1) {
+    background-color: tomato;
+    color: white;
+  }
+  
+  /* Table styling */
+  .schedule {
+    border-collapse: collapse;
+  }
+  
+  .schedule th,
+  .schedule td {
+    padding: 8px;
+    border: 1px solid #212121;
+  }
+  
