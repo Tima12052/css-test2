@@ -1,7 +1,17 @@
-li {
+/*li {
     color: rgb(255, 0, 0);
 }
 li {
     color: rgb(0, 38, 255);
     
+}
+li:hover{
+    color: rgb(51, 255, 0);
+}
+*/
+.checkbox:checked{
+    text-decoration: line-through;
+}
+ul:nth-child(even){
+    color: blueviolet;
 }
